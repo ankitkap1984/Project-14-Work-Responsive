@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resproject HTML5 Framework</title>
+	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>-->
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script src="js/jquery.js"></script>
+	<script>
+		//Choose if you want the window width to display - 1 = yes, 0 = no
+		var showWidth = 1;
+		
+		if(showWidth == 1){
+        	$(document).ready(function (){
+            	$(window).resize(function(){
+                	var width = $(window).width();
+                	document.getElementById("output_width").innerHTML='Window Width:'+width.toString();
+           		});
+        	});
+		}
+    </script>
+</head>
+<body>
+ <div class="custom-main">
+ 	<header>
+ 		<img src="images/logo.png" alt="">
+ 	</header>
+ 	<nav class="custom-nav">
+ 		<ul>
+ 			<li><a href="#" class="active">Home</a></li>
+ 			<li><a href="#">About</a></li>
+ 			<li><a href="#">My Work</a></li>
+ 			<li><a href="#">Contact</a></li>
+ 			<li><a href="#">Sign in</a></li>
+ 		</ul>
+ 	</nav>
+ 	<div class="custom-left-sections">
+	 	<article class="custom-article1">
+	 		<h4><a href="#">This is My work 1</a></h4>
+	 		<h5>Created by Ankit Kapuria</h5>
+	 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem impedit fugit eum temporibus repellendus voluptatem a, voluptatum laboriosam quis minima quod modi, dolor magnam. Beatae iure error quod fugiat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, est. Deleniti dolorum impedit, quo fugit tenetur necessitatibus debitis repudiandae nesciunt, qui id minima, voluptatem error hic accusamus numquam ipsum in.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ea magnam quos ratione earum pariatur dolor delectus illo amet expedita, rerum possimus! Adipisci eos doloribus, voluptate iusto quia nobis odio.</p>
+	 		<button><a href="#">Read More</a></button>
+	 	</article>
+	 	<article class="custom-article2">
+	 		<h4><a href="#">This is My work 2</a></h4>
+	 		<h5>Created by Maulik Kapuria</h5>
+	 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, autem possimus dolor consectetur placeat enim, corrupti, repellat dicta, perspiciatis reprehenderit vitae iste ipsam praesentium numquam! Explicabo id minus illo aspernatur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ea magnam quos ratione earum pariatur dolor delectus illo amet expedita, rerum possimus! Adipisci eos doloribus, voluptate iusto quia nobis odio.</p>
+	 		<button><a href="#">Read More</a></button>
+	 	</article>
+ 	</div>
+ 		<div class="custom-right-sections">
+	 	<article class="custom-sidebar1">
+	 		<h4>This is My sidebar 1</h4>
+	 		<h5>Created by Ankit Kapuria</h5>
+	 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ea magnam quos ratione earum pariatur dolor delectus illo amet expedita, rerum possimus! Adipisci eos doloribus, voluptate iusto quia nobis odio.</p>
+	 	</article>
+	 	<article class="custom-sidebar2">
+	 		<h4>This is My sidebar 2</h4>
+	 		<h5>Created by Maulik Kapuria</h5>
+	 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ea magnam quos ratione earum pariatur dolor delectus illo amet expedita, rerum possimus! Adipisci eos doloribus, voluptate iusto quia nobis odio.</p>
+	 	</article>
+ 	</div>
+	<div class="clear-area"</div>
+
+	 <footer class="custom-footer">
+	 	Copyright &copy; Ankit Kapuria
+	 </footer>
+ </div>
+</body>
+</html>
